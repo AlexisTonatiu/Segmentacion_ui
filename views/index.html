@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <h2>Segmentacion de Arterias en fondo de ojo</h2>
+    
+    <div class="container">
+        <div class="entrada-imagen" id="drag-file">
+            <p>Arrastre imagen</p>
+            <img id="imgPrime" src="img/upload.png" alt="uploaded image placeholder" style="border-radius: 10px;"/>
+            <br>
+            <br>
+            <input type="file" id="fileUpload" />
+        </div>
+        <div class="salida-frangi">
+            <h3>Filtro de Frangi</h3>
+            <div class="imagen">
+                <img id="imgFran" src="img/icon.png" alt="frangi image placeholder"/>
+            </div>
+        </div>
+        <div class="salida-dl">
+            <h3>Red Convolucional</h3>
+            <div class="imagen">
+                <img id="imgDL" src="img/ml.png" alt="DL image placeholder"/>
+            </div>
+        </div>
+        <div class="angulo">
+            <h3>Angulo apertura(estimacion)</h3>
+            <div class="imagen_final">
+                <img id="imgLine" src="img/ml.png" alt="final image placeholder"/>
+            </div>
+        </div>
+    </div>
+    
+<script type="text/javascript" src="../src/renderer.js"></script>
+
+</body>
+</html>
